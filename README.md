@@ -15,7 +15,7 @@ Fine-tuning DistilBERT with LoRA for IMDb sentiment classification using Hugging
 
 ---
 
-## 📊 **Performance**
+### Performance
 | Metric | Value |
 |---------|--------|
 | Final validation accuracy | 90.46% |
@@ -24,11 +24,11 @@ Fine-tuning DistilBERT with LoRA for IMDb sentiment classification using Hugging
 
 ---
 
-## 📌 **Challenges**
+### Challenges
 - Manually specifying LoRA target modules for DistilBERT (`q_lin`, `v_lin`)
 - Balancing batch size with GPU memory limits in Colab
 
-## 🚀 **How to Run**
+## How to Run
 1️⃣ Install requirements:
 ```bash
 pip install transformers datasets peft accelerate evaluate
